@@ -10,7 +10,7 @@ $ProjectFiles = Get-Content $SolutionFilesPath
 $msbuild = "C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe"
 $MSBuildLogger = "/flp1:Append;LogFile=Build.log;Verbosity=Normal;/flp2:LogFile=BuildErrors.log;Verbosity=Normal;errorsonly"
 
-$DevEnv = "C:\Program Files\Microsoft Visual Studio 11.0\Common9\IDE\devenv.exe"
+$DevEnv = "C:\Program Files\Microsoft Visual Studio 16.8\Common9\IDE\devenv.exe"
 
 $Action = "Y"
 
